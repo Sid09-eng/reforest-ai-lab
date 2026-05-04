@@ -1,0 +1,5 @@
+target,target_label,model_name,mae,rmse,r2,mae_change_vs_baseline_pct,rmse_change_vs_baseline_pct
+abs_drying_rate,Drying rate,Event-onset only,0.006038542946047801,0.008369423403077517,0.5105456858788031,0.0,0.0
+abs_drying_rate,Drying rate,Event-onset + plot summary,0.006272851796175127,0.008767218135327567,0.46291291753988373,-3.880221639902059,-4.752952659842464
+empirical_half_life_days,Half-life,Event-onset only,1.1588355031842579,1.6461250179491935,0.08280300379967043,0.0,0.0
+empirical_half_life_days,Half-life,Event-onset + plot summary,1.5035896024985431,1.9598681860282168,-0.3001417942688063,-29.750046349716335,-19.05949819472987
