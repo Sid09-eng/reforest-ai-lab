@@ -1,0 +1,3 @@
+model_name,rows,accuracy,balanced_accuracy,macro_f1,selected_model,data_tier
+logistic_regression,778,0.5012853470437018,0.5939211013814857,0.5048359575835475,logistic_regression,hard_cleaned
+persistence,778,0.5976863753213367,0.5827471858500575,0.5836776524076853,persistence,analysis_screened

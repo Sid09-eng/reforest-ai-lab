@@ -1,0 +1,8 @@
+plot,target_temperature,target_relative_humidity,target_vpd,target_par,target_soil_moisture
+CN2,692,692,692,316,304
+FT4MD,721,721,721,518,511
+FT4MR,693,693,693,434,292
+FT4TH,705,705,705,149,147
+LP3,641,641,641,605,528
+UP2,739,739,739,417,395
+US5,643,643,643,425,419

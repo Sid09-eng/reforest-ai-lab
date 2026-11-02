@@ -1,0 +1,2 @@
+split,model,n_days,accuracy,balanced_accuracy,macro_f1
+held_out_test,logistic_regression,778,0.5012853470437018,0.5939211013814857,0.5048359575835475

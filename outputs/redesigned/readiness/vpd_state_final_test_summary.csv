@@ -1,0 +1,2 @@
+model,evaluation,rows,accuracy,balanced_accuracy,macro_f1,macro_ovr_auc,macro_ovr_auc_note
+logistic_regression,untouched chronological final 20%,778,0.5012853470437018,0.5939211013814857,0.5048359575835475,0.8159170345518396,Reported: selected model provides probabilities and every class occurs in the final test.

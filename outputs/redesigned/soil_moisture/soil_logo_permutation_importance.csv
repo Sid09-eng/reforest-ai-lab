@@ -1,0 +1,925 @@
+target,target_label,model_name,preprocessing,feature_set,heldout_plot,feature,mae_increase_mean
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,CN2,start_signal,3.4923240985247366e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,CN2,start_daily_range,0.008372908814170636
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,CN2,mean_roll7,4.3368463611500456e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,CN2,max_roll3,2.497777217815404e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,CN2,month_sin,0.0005528990264842001
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,CN2,month_cos,-4.770394119833904e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,CN2,antecedent_moisture_anomaly,-5.774864229247043e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,CN2,recent_variability_ratio,0.0003961559050354997
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,start_signal,0.00022683681337503622
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,start_daily_range,0.0018452195310074506
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,mean_roll7,0.0001502546784733415
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,max_roll3,0.000156279674560465
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,month_sin,-7.817518001718687e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,month_cos,6.832665205759765e-06
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,antecedent_moisture_anomaly,-4.792776406582072e-06
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,recent_variability_ratio,5.490588424226627e-06
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,start_signal,6.627358265148646e-06
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,start_daily_range,0.002073828753660098
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,mean_roll7,2.2880934835152293e-06
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,max_roll3,-2.443429851737549e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,month_sin,0.0004745631660874397
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,month_cos,9.388149552503584e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,antecedent_moisture_anomaly,-0.00011236786347388105
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,recent_variability_ratio,7.925112092458377e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,start_signal,0.0005406519232898385
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,start_daily_range,0.0036762824952285313
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,mean_roll7,0.0009458459064970821
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,max_roll3,-9.6464239014586e-06
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,month_sin,0.00048365511024434544
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,month_cos,0.0002549327380704801
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,antecedent_moisture_anomaly,1.5359488542672842e-06
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,recent_variability_ratio,0.00011503909296666425
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,LP3,start_signal,0.0004069342708902999
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,LP3,start_daily_range,0.004684710588454963
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,LP3,mean_roll7,-4.5802396156206444e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,LP3,max_roll3,9.954462294697563e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,LP3,month_sin,0.0005101192059113587
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,LP3,month_cos,3.329474678934905e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,LP3,antecedent_moisture_anomaly,-6.065698367801083e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,LP3,recent_variability_ratio,9.47972260935577e-07
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,UP2,start_signal,-3.788722172252913e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,UP2,start_daily_range,0.0029885548313799927
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,UP2,mean_roll7,1.6710158912050695e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,UP2,max_roll3,4.5997191830084505e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,UP2,month_sin,4.1788312102189125e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,UP2,month_cos,-0.0001079035595866736
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,UP2,antecedent_moisture_anomaly,0.00010688329045587383
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,UP2,recent_variability_ratio,0.00025456120156202065
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,US5,start_signal,7.430621819752909e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,US5,start_daily_range,0.002973756812182406
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,US5,mean_roll7,0.00013893087871702888
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,US5,max_roll3,-3.2721628580793285e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,US5,month_sin,4.610620306631334e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,US5,month_cos,6.295367642128996e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,US5,antecedent_moisture_anomaly,1.6300880463254296e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,US5,recent_variability_ratio,0.0001115633835698594
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,CN2,start_signal,0.0002926562202229541
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,CN2,start_daily_range,0.0039915478518256185
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,CN2,mean_roll7,-0.00014110275756397075
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,CN2,max_roll3,3.5095560796251195e-06
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,CN2,month_sin,0.00019114209255617442
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,CN2,month_cos,0.00024664564191645064
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,CN2,antecedent_moisture_anomaly,-1.3249094671183292e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,CN2,recent_variability_ratio,-0.00014054007496859864
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MD,start_signal,0.00028074933546122537
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MD,start_daily_range,0.001199261835396361
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MD,mean_roll7,0.00016866410877346087
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MD,max_roll3,1.2018454401077107e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MD,month_sin,0.0001954109568632025
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MD,month_cos,7.219186134456052e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MD,antecedent_moisture_anomaly,0.00032623085841898216
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MD,recent_variability_ratio,0.0002494724597168504
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MR,start_signal,0.0002077773483825206
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MR,start_daily_range,0.0010520817395852753
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MR,mean_roll7,0.00012761861568282566
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MR,max_roll3,0.00020884219370468341
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MR,month_sin,-3.261868184273797e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MR,month_cos,-8.589604342916917e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MR,antecedent_moisture_anomaly,-5.59045262203438e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4MR,recent_variability_ratio,9.705745288361928e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4TH,start_signal,-0.00018059635591775774
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4TH,start_daily_range,0.003947176676037452
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4TH,mean_roll7,-9.558533104549538e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4TH,max_roll3,-0.00014829000437257961
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4TH,month_sin,0.00033331088844631274
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4TH,month_cos,0.0003041167724351809
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4TH,antecedent_moisture_anomaly,0.00015260203728480903
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,FT4TH,recent_variability_ratio,-0.00036783949026262305
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,LP3,start_signal,0.0004241626135834179
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,LP3,start_daily_range,0.0036976838657476695
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,LP3,mean_roll7,-1.150521527873774e-06
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,LP3,max_roll3,8.931351605411721e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,LP3,month_sin,0.00021935182096953948
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,LP3,month_cos,0.0001190682322937146
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,LP3,antecedent_moisture_anomaly,-4.1694748889571644e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,LP3,recent_variability_ratio,6.087050420629896e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,UP2,start_signal,0.0002803082166779569
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,UP2,start_daily_range,0.0024069082576064333
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,UP2,mean_roll7,-2.6231547488523003e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,UP2,max_roll3,-4.39641945445231e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,UP2,month_sin,-1.5932969438411243e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,UP2,month_cos,-1.3370032684129323e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,UP2,antecedent_moisture_anomaly,0.000206281876151036
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,UP2,recent_variability_ratio,-5.4406250242825404e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,US5,start_signal,5.643924339204555e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,US5,start_daily_range,0.0022313995499113346
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,US5,mean_roll7,5.725390102822138e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,US5,max_roll3,1.5773321401264025e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,US5,month_sin,-4.458989197575159e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,US5,month_cos,0.00030214067554418635
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,US5,antecedent_moisture_anomaly,0.0002016699690809187
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,US5,recent_variability_ratio,7.680741032043293e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,start_signal,-1.681108833216857e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,start_daily_range,0.0032642362650787218
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,mean_roll7,-0.00015075708122210305
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,max_roll3,0.00035654845115671755
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,month_sin,0.0004839033408048429
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,month_cos,0.0002267097438474682
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,antecedent_moisture_anomaly,-3.099651008915231e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,recent_variability_ratio,9.705219243989499e-06
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,start_signal,0.0004711909671954682
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,start_daily_range,0.0010130200812936553
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,mean_roll7,0.0003609708791656418
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,max_roll3,4.2718966080798875e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,month_sin,0.0004071481734102273
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,month_cos,2.8553891003155282e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,antecedent_moisture_anomaly,0.0003397728156622518
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,recent_variability_ratio,0.00025353851647014837
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,start_signal,0.00018504841747077339
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,start_daily_range,0.0004932878103006633
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,mean_roll7,0.00016006126592462336
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,max_roll3,0.0001481478062230832
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,month_sin,0.00016979581157614034
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,month_cos,7.011615951256785e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,antecedent_moisture_anomaly,-0.0001017613794549367
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,recent_variability_ratio,5.894711899827902e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,start_signal,0.0002511768754703622
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,start_daily_range,0.0030823679873131513
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,mean_roll7,0.000526029746707134
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,max_roll3,-2.934595614170702e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,month_sin,0.0005005259428261632
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,month_cos,0.0002614908398389418
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,antecedent_moisture_anomaly,0.00017634787535568026
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,recent_variability_ratio,-0.00031255120298810045
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,start_signal,0.0004661016822465112
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,start_daily_range,0.0035835490613177353
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,mean_roll7,-0.00014448751828938805
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,max_roll3,5.0863248050720715e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,month_sin,0.0007615705912583081
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,month_cos,0.0002614289823581256
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,antecedent_moisture_anomaly,-5.7559530570284494e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,recent_variability_ratio,2.7046140495591738e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,start_signal,4.568679867260599e-06
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,start_daily_range,0.002310153152295519
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,mean_roll7,1.1008404924426392e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,max_roll3,8.521023057396371e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,month_sin,-0.00014566588162147456
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,month_cos,4.728926268550322e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,antecedent_moisture_anomaly,0.0002703747073283259
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,recent_variability_ratio,7.676976743114447e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,start_signal,-5.3516800606751705e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,start_daily_range,0.002028258156998618
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,mean_roll7,-1.2355023772245722e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,max_roll3,4.931220532295062e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,month_sin,4.3249775864600755e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,month_cos,0.00029160206895847095
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,antecedent_moisture_anomaly,0.0005456172695426818
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,recent_variability_ratio,2.769406774982882e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,start_signal,0.00015636103714220355
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,start_daily_range,0.007763000293794016
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,mean_roll7,-1.1201853577464619e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,max_roll3,2.4979765635313457e-06
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,month_sin,0.0007795323924826136
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,month_cos,2.6739171878958653e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,antecedent_moisture_anomaly,7.799933106831924e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,recent_variability_ratio,0.0008925370785543774
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,stemcount2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,basal_area2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,shannon2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,start_signal,0.0006453272771768856
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,start_daily_range,0.0020806284792091886
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,mean_roll7,4.510632428418428e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,max_roll3,9.060207661222095e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,month_sin,0.00024392119637726522
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,month_cos,3.8901469197633477e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,antecedent_moisture_anomaly,4.223162540607419e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,recent_variability_ratio,1.3607126506165815e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,stemcount2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,basal_area2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,shannon2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,start_signal,0.0003682430212971702
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,start_daily_range,0.001990919225804867
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,mean_roll7,-0.00010318136283140071
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,max_roll3,2.175322089169743e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,month_sin,0.0006040409692787488
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,month_cos,-2.4483434033090253e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,antecedent_moisture_anomaly,-0.0001755784205707634
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,recent_variability_ratio,2.771761800367794e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,stemcount2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,basal_area2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,shannon2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,start_signal,0.00031958321499349037
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,start_daily_range,0.002633248828037083
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,mean_roll7,0.0005356678328272311
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,max_roll3,-9.861033300693012e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,month_sin,5.8355715164432225e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,month_cos,0.00012652282670580487
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,antecedent_moisture_anomaly,-8.198775566103847e-06
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,recent_variability_ratio,0.00012914803014796877
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,stemcount2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,basal_area2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,shannon2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,start_signal,0.0004513015104998623
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,start_daily_range,0.004830554175504086
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,mean_roll7,-0.0001468995708362306
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,max_roll3,-1.084280233730247e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,month_sin,0.00048517590633580905
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,month_cos,2.2103992917849122e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,antecedent_moisture_anomaly,-6.0968339047922424e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,recent_variability_ratio,-4.9781305241008904e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,stemcount2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,basal_area2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,shannon2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,start_signal,7.996861741234058e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,start_daily_range,0.0030071297419370932
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,mean_roll7,2.884298043362224e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,max_roll3,-4.595792489469064e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,month_sin,-3.4800670095519375e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,month_cos,-0.00010188347372805453
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,antecedent_moisture_anomaly,0.00026104723862913385
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,recent_variability_ratio,0.00013047229545792605
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,stemcount2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,basal_area2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,shannon2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,start_signal,-3.907141283480443e-06
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,start_daily_range,0.0027721250674587533
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,mean_roll7,0.00016284346135279454
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,max_roll3,-0.00014448048571255156
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,month_sin,8.980494596879385e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,month_cos,1.196381459303451e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,antecedent_moisture_anomaly,1.1750840090694881e-05
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,recent_variability_ratio,0.0001285885656342807
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,stemcount2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,basal_area2024,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,shannon2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,start_signal,0.00024980747484638764
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,start_daily_range,0.004026031784213256
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,mean_roll7,-0.00012474731303210515
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,max_roll3,-1.658122527843668e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,month_sin,0.00011575813706069474
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,month_cos,0.0002453318451445368
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,antecedent_moisture_anomaly,-5.5635349384996e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,recent_variability_ratio,-0.00010911102465217641
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,stemcount2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,basal_area2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,shannon2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,start_signal,0.0003704667213571233
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,start_daily_range,0.0013978498031331653
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,mean_roll7,0.00022994603248919612
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,max_roll3,7.479490651963174e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,month_sin,0.00014371082437721834
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,month_cos,4.3007934698596676e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,antecedent_moisture_anomaly,0.00031381224459097503
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,recent_variability_ratio,0.00027485540792826025
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,stemcount2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,basal_area2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,shannon2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,start_signal,0.0001586992889074517
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,start_daily_range,0.001013486812843237
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,mean_roll7,0.00011451809793257819
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,max_roll3,0.00027220663203068873
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,month_sin,-7.842585440091878e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,month_cos,-0.0001214063298308349
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,antecedent_moisture_anomaly,2.0755238554193577e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,recent_variability_ratio,3.225898236781403e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,stemcount2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,basal_area2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,shannon2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,start_signal,-0.00013626446832912324
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,start_daily_range,0.004147873993180407
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,mean_roll7,7.729128454598424e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,max_roll3,7.284437677766153e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,month_sin,0.0002788041055887514
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,month_cos,0.0003467685508250737
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,antecedent_moisture_anomaly,0.00014194594833359845
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,recent_variability_ratio,-0.00029131949999138906
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,stemcount2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,basal_area2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,shannon2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,start_signal,0.000384573523538312
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,start_daily_range,0.003689466996246052
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,mean_roll7,1.2895905156810535e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,max_roll3,5.5115523609577595e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,month_sin,0.00016816538766488854
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,month_cos,0.00014654389607763035
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,antecedent_moisture_anomaly,5.040991286456679e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,recent_variability_ratio,0.00012567540288317743
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,stemcount2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,basal_area2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,shannon2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,start_signal,0.00022884083308958978
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,start_daily_range,0.0024558970088595145
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,mean_roll7,2.538956167193419e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,max_roll3,-1.4592137399155064e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,month_sin,3.070002475844451e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,month_cos,-7.719852825849913e-06
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,antecedent_moisture_anomaly,0.00023522975177359156
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,recent_variability_ratio,6.045572469531328e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,stemcount2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,basal_area2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,shannon2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,start_signal,0.00019412413808326273
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,start_daily_range,0.002158617613933852
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,mean_roll7,7.266706432344956e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,max_roll3,-2.88643190403416e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,month_sin,-1.729515290581603e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,month_cos,0.0001374492315482979
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,antecedent_moisture_anomaly,0.0002389693139603824
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,recent_variability_ratio,7.083526522656658e-05
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,stemcount2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,basal_area2024,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,US5,shannon2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,start_signal,-6.689740994559098e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,start_daily_range,0.0031130243815346006
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,mean_roll7,-8.804182186836806e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,max_roll3,0.0003101989496319446
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,month_sin,0.00038617193501087096
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,month_cos,0.00020646470023923035
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,antecedent_moisture_anomaly,-0.00010160913008162055
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,recent_variability_ratio,-5.576907646098681e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,stemcount2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,basal_area2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,shannon2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,start_signal,0.0004961299575285589
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,start_daily_range,0.0007664509828000139
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,mean_roll7,0.000454059329695801
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,max_roll3,-7.412756635639741e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,month_sin,0.0003074567474173516
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,month_cos,6.50341194952559e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,antecedent_moisture_anomaly,0.00018358700157201506
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,recent_variability_ratio,0.000276905067463369
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,stemcount2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,basal_area2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,shannon2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,start_signal,0.00023805169215733568
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,start_daily_range,0.0006201022380613948
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,mean_roll7,3.955856567569279e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,max_roll3,-4.323372852298984e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,month_sin,0.00012393479041271723
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,month_cos,8.625495742583221e-07
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,antecedent_moisture_anomaly,-0.000120562915807135
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,recent_variability_ratio,6.802604150276297e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,stemcount2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,basal_area2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,shannon2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,start_signal,0.00020401778537355197
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,start_daily_range,0.0029135902758121116
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,mean_roll7,0.00023475396228901554
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,max_roll3,0.00011441112865873994
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,month_sin,0.0004718398317305517
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,month_cos,0.00025232905893713634
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,antecedent_moisture_anomaly,0.00016747114441969168
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,recent_variability_ratio,-5.8396541221136716e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,stemcount2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,basal_area2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,shannon2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,start_signal,0.00025958936019178526
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,start_daily_range,0.0036756703288702884
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,mean_roll7,-5.4677978334262756e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,max_roll3,3.1575617012770393e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,month_sin,0.00047645883616288136
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,month_cos,6.732093811392983e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,antecedent_moisture_anomaly,1.8129360961026757e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,recent_variability_ratio,5.173137289653656e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,stemcount2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,basal_area2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,shannon2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,start_signal,3.6716235852589634e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,start_daily_range,0.002051616857175898
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,mean_roll7,-1.241361442800952e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,max_roll3,1.3967063119101324e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,month_sin,-0.00016391012700346392
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,month_cos,9.529713881517637e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,antecedent_moisture_anomaly,0.00023402923255715227
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,recent_variability_ratio,0.00014921208267674638
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,stemcount2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,basal_area2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,shannon2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,start_signal,9.482289539356472e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,start_daily_range,0.001837389317829939
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,mean_roll7,5.891752726056906e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,max_roll3,4.0112399896223996e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,month_sin,0.00010383072868985314
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,month_cos,0.0003374022217438219
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,antecedent_moisture_anomaly,0.0006595617180205669
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,recent_variability_ratio,3.315936984530522e-05
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,avg_absgrowthCCNR,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,stemcount2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,basal_area2024,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,corrected_mortality,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,corrected_recruitment,0.0
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,shannon2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,CN2,start_signal,0.09255249170766293
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,CN2,start_daily_range,0.12757730767719894
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,CN2,mean_roll7,0.000519095905251854
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,CN2,max_roll3,0.06183909121120597
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,CN2,month_sin,-0.0022185251973801503
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,CN2,month_cos,-0.0021331217196102646
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,CN2,antecedent_moisture_anomaly,-9.522450638108638e-05
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,CN2,recent_variability_ratio,0.24087372548768554
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,start_signal,0.004713646430898821
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,start_daily_range,0.18021141428633256
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,mean_roll7,0.011804970578299257
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,max_roll3,-0.0006590234004879792
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,month_sin,0.010639986294422555
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,month_cos,-0.04374366729916905
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,antecedent_moisture_anomaly,0.009691701977237033
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MD,recent_variability_ratio,0.0759565290966965
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,start_signal,0.028253483347462426
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,start_daily_range,0.19430554415738138
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,mean_roll7,0.005476257304824361
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,max_roll3,0.08390047329583587
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,month_sin,0.014291505060364872
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,month_cos,0.011134095763356111
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,antecedent_moisture_anomaly,0.019480584033523263
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4MR,recent_variability_ratio,0.06543724401931424
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,start_signal,-0.05890332135417235
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,start_daily_range,0.21413371997601524
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,mean_roll7,0.022752382161272088
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,max_roll3,0.06410777830494534
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,month_sin,-0.03359092653330185
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,month_cos,-0.0007318434696522713
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,antecedent_moisture_anomaly,0.0053524401144768195
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,FT4TH,recent_variability_ratio,0.14377025843778737
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,LP3,start_signal,0.040081397165166496
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,LP3,start_daily_range,-0.05855948125816298
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,LP3,mean_roll7,-0.0007801821432584788
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,LP3,max_roll3,-0.010553533478942789
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,LP3,month_sin,0.004271626628022296
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,LP3,month_cos,0.006760938502169789
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,LP3,antecedent_moisture_anomaly,-0.06278688234537073
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,LP3,recent_variability_ratio,-0.0475638074673842
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,UP2,start_signal,0.22464665491117905
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,UP2,start_daily_range,-0.037653422783531745
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,UP2,mean_roll7,-0.005292486231189874
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,UP2,max_roll3,0.019709533371513842
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,UP2,month_sin,0.024978505040938504
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,UP2,month_cos,0.002923958139105798
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,UP2,antecedent_moisture_anomaly,-0.010213875942165274
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,UP2,recent_variability_ratio,-0.07043321770641096
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,US5,start_signal,0.046566477646237614
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,US5,start_daily_range,0.14868629873730704
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,US5,mean_roll7,0.0038171843410110596
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,US5,max_roll3,0.03618626187979838
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,US5,month_sin,-0.007368608730159931
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,US5,month_cos,0.001736216576248295
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,US5,antecedent_moisture_anomaly,0.01457893988332667
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,US5,recent_variability_ratio,0.11688264152030783
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,CN2,start_signal,0.03697242273576949
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,CN2,start_daily_range,0.08756193475479615
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,CN2,mean_roll7,0.01583520643483908
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,CN2,max_roll3,0.005881104333410869
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,CN2,month_sin,-0.009666850792966752
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,CN2,month_cos,0.010321730010614382
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,CN2,antecedent_moisture_anomaly,0.03470314448951915
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,CN2,recent_variability_ratio,0.30378961214962386
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MD,start_signal,0.04287914352089421
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MD,start_daily_range,0.34003384718943286
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MD,mean_roll7,0.019396463124220654
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MD,max_roll3,-0.005788626957677323
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MD,month_sin,0.007962363776074687
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MD,month_cos,0.011621628389096306
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MD,antecedent_moisture_anomaly,0.01871114945767196
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MD,recent_variability_ratio,0.10487568659800768
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MR,start_signal,0.019407596870014043
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MR,start_daily_range,0.19663281527255855
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MR,mean_roll7,-0.005978810984265748
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MR,max_roll3,-0.008430837807863089
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MR,month_sin,0.0017923029634444253
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MR,month_cos,0.05187499677864713
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MR,antecedent_moisture_anomaly,0.013257268736187466
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4MR,recent_variability_ratio,0.12324474870546513
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4TH,start_signal,-0.0019183834196185412
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4TH,start_daily_range,0.7002779127711388
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4TH,mean_roll7,-0.01757222435010326
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4TH,max_roll3,-0.01682998882268503
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4TH,month_sin,-0.016144111674732797
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4TH,month_cos,-0.010184479467403307
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4TH,antecedent_moisture_anomaly,0.0059954877125945275
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,FT4TH,recent_variability_ratio,0.30529458676468096
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,LP3,start_signal,0.024790961407961908
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,LP3,start_daily_range,0.06576262572937204
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,LP3,mean_roll7,-0.007301402532831102
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,LP3,max_roll3,0.02713284160313323
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,LP3,month_sin,0.014650963447433019
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,LP3,month_cos,0.005937147534628218
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,LP3,antecedent_moisture_anomaly,-0.0688141799659998
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,LP3,recent_variability_ratio,-0.04628099330165584
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,UP2,start_signal,0.0027402843771417774
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,UP2,start_daily_range,0.19941956295275462
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,UP2,mean_roll7,-0.0273118849619328
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,UP2,max_roll3,-0.004909604004947621
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,UP2,month_sin,0.013310253676423245
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,UP2,month_cos,0.00263906192365837
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,UP2,antecedent_moisture_anomaly,0.01033972164442094
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,UP2,recent_variability_ratio,-0.08968917690924609
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,US5,start_signal,0.022318103445172665
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,US5,start_daily_range,0.07761114374117825
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,US5,mean_roll7,0.00202072254766712
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,US5,max_roll3,-0.006939865594207828
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,US5,month_sin,0.02014759533608169
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,US5,month_cos,0.030641355239832337
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,US5,antecedent_moisture_anomaly,0.03701145582296496
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,US5,recent_variability_ratio,0.14158045594452714
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,start_signal,0.01473716849291946
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,start_daily_range,-0.022711858185788636
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,mean_roll7,-0.021254909724499428
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,max_roll3,0.006555460482058129
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,month_sin,-0.010799812508227225
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,month_cos,-0.0019837913668880993
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,antecedent_moisture_anomaly,0.06324766388055536
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,CN2,recent_variability_ratio,0.3465719454248889
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,start_signal,0.03634467074393131
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,start_daily_range,0.1893200705332818
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,mean_roll7,0.016116876595369624
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,max_roll3,0.011359874561586691
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,month_sin,0.041304740987034363
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,month_cos,-0.007497454484182375
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,antecedent_moisture_anomaly,0.03171360254861146
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MD,recent_variability_ratio,0.13837546618292385
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,start_signal,0.029524750256282595
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,start_daily_range,-0.02524176891747012
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,mean_roll7,0.02183249481919659
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,max_roll3,0.032218847882791946
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,month_sin,0.017586716175566362
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,month_cos,-0.02153273383730604
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,antecedent_moisture_anomaly,-0.038740462663002836
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4MR,recent_variability_ratio,0.044857863697866984
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,start_signal,0.04080362156406592
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,start_daily_range,0.1917707792422134
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,mean_roll7,-0.008954912167498174
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,max_roll3,-0.021388199335935852
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,month_sin,-0.03891054946627144
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,month_cos,-0.09250797741373351
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,antecedent_moisture_anomaly,-0.03860821262128926
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,FT4TH,recent_variability_ratio,0.36778156210898394
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,start_signal,0.004032247138468059
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,start_daily_range,-0.025674241686053957
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,mean_roll7,-0.032406740056843096
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,max_roll3,0.04499595027066383
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,month_sin,-0.00024011817368327915
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,month_cos,0.015222549074952551
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,antecedent_moisture_anomaly,-0.09342135376214472
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,LP3,recent_variability_ratio,-0.062443701327307796
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,start_signal,-0.020644710640745644
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,start_daily_range,0.04732511630148526
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,mean_roll7,-0.0056657685423426194
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,max_roll3,0.02645078332415891
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,month_sin,0.03940557382081702
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,month_cos,0.011882519344451037
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,antecedent_moisture_anomaly,0.0456811997272222
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,UP2,recent_variability_ratio,0.027092416387365804
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,start_signal,0.006980454582803219
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,start_daily_range,0.08212291937633369
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,mean_roll7,0.003824709216062039
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,max_roll3,-0.018243104579841584
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,month_sin,0.04058108179567865
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,month_cos,0.03204097825735671
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,antecedent_moisture_anomaly,-0.05058207593070964
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,US5,recent_variability_ratio,0.19603617153301012
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,start_signal,0.15274507460662873
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,start_daily_range,0.12188427701605113
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,mean_roll7,-0.002217825157069786
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,max_roll3,0.07532841857283361
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,month_sin,0.014022093229071154
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,month_cos,0.0009656729583805256
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,antecedent_moisture_anomaly,0.008397748726142028
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,recent_variability_ratio,0.22683681933799638
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,stemcount2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,basal_area2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,CN2,shannon2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,start_signal,-0.016950703933036392
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,start_daily_range,0.1655174617625966
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,mean_roll7,-0.0022031086062063165
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,max_roll3,-0.0022910330055124772
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,month_sin,0.006425489533016071
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,month_cos,-0.057765446096760355
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,antecedent_moisture_anomaly,0.0067575995825638335
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,recent_variability_ratio,0.04316475088359197
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,stemcount2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,basal_area2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MD,shannon2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,start_signal,0.009961951254424095
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,start_daily_range,0.043182377330258426
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,mean_roll7,-0.001486599705679037
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,max_roll3,-0.013891486353557369
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,month_sin,0.0021319009336632
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,month_cos,0.0046453664754961595
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,antecedent_moisture_anomaly,-0.0027871983704812254
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,recent_variability_ratio,0.01064350902972937
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,stemcount2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,basal_area2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4MR,shannon2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,start_signal,-0.05164328726593435
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,start_daily_range,0.1656150652164192
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,mean_roll7,-0.049707943409248646
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,max_roll3,0.09220002002623554
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,month_sin,-0.0558887365927335
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,month_cos,0.002682737378913913
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,antecedent_moisture_anomaly,-0.00046578486490034265
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,recent_variability_ratio,0.06229424049807011
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,stemcount2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,basal_area2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,FT4TH,shannon2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,start_signal,0.01812376906031421
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,start_daily_range,0.039674570263836625
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,mean_roll7,0.0011522937544011125
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,max_roll3,-0.0002020057441098011
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,month_sin,-0.00013629596486226526
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,month_cos,3.30518334451968e-05
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,antecedent_moisture_anomaly,-0.02502749311696655
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,recent_variability_ratio,0.011286679558102142
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,stemcount2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,basal_area2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,LP3,shannon2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,start_signal,0.27684524291794793
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,start_daily_range,-0.045738203026169134
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,mean_roll7,-0.01900146076150335
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,max_roll3,0.004779458500312339
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,month_sin,0.025538126305952293
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,month_cos,0.00027854321755966805
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,antecedent_moisture_anomaly,-0.005612171655457287
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,recent_variability_ratio,-0.07903864700513148
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,stemcount2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,basal_area2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,UP2,shannon2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,start_signal,0.05668710354677229
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,start_daily_range,0.14563835639234965
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,mean_roll7,-0.00015530074213958577
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,max_roll3,0.05352014468482389
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,month_sin,-0.01991796178215439
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,month_cos,-0.0009086980970373859
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,antecedent_moisture_anomaly,0.007545781822808395
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,recent_variability_ratio,0.09971515419389179
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,stemcount2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,basal_area2024,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,US5,shannon2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,start_signal,0.02359091527520517
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,start_daily_range,0.06861411508015969
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,mean_roll7,0.007822638185093034
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,max_roll3,-0.003347076018080042
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,month_sin,-0.002650880133170086
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,month_cos,0.0016497188766558036
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,antecedent_moisture_anomaly,0.047535255241638
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,recent_variability_ratio,0.269747515314744
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,stemcount2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,basal_area2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,CN2,shannon2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,start_signal,0.031150474779493974
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,start_daily_range,0.3296425876576558
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,mean_roll7,0.003208153805521974
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,max_roll3,-0.010405409723548443
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,month_sin,0.0018635601261439926
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,month_cos,-0.0033202663343262716
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,antecedent_moisture_anomaly,0.01007498652123815
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,recent_variability_ratio,0.11291726938582032
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,stemcount2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,basal_area2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MD,shannon2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,start_signal,0.01605873892583488
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,start_daily_range,0.13245447320697354
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,mean_roll7,0.0006330253286693677
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,max_roll3,-0.014715751548742773
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,month_sin,0.00010029920681360327
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,month_cos,0.030773072831154658
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,antecedent_moisture_anomaly,0.016007734285871312
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,recent_variability_ratio,0.12271762517458398
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,stemcount2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,basal_area2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4MR,shannon2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,start_signal,0.0020292173316216688
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,start_daily_range,0.642669869030996
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,mean_roll7,-0.006885735237594881
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,max_roll3,-0.011490220931749428
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,month_sin,-0.015658694755680692
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,month_cos,-0.02635488049036814
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,antecedent_moisture_anomaly,-0.030593651762601114
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,recent_variability_ratio,0.36357501306691775
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,stemcount2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,basal_area2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,FT4TH,shannon2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,start_signal,0.043604521851239156
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,start_daily_range,0.1011352216785399
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,mean_roll7,-0.004158517011380369
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,max_roll3,0.026531324401038003
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,month_sin,0.02306136810834023
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,month_cos,0.009507558991332843
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,antecedent_moisture_anomaly,-0.05405927404705727
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,recent_variability_ratio,-0.04279417218286076
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,stemcount2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,basal_area2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,LP3,shannon2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,start_signal,0.020230743550314047
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,start_daily_range,0.18864611247258684
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,mean_roll7,-0.025290322639609154
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,max_roll3,0.009756975620088103
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,month_sin,0.013493340263941844
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,month_cos,0.0006086457008008805
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,antecedent_moisture_anomaly,0.022834929583955454
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,recent_variability_ratio,-0.07279716082133261
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,stemcount2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,basal_area2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,UP2,shannon2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,start_signal,0.019674673832974266
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,start_daily_range,0.08219517741129435
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,mean_roll7,0.0007501029252529711
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,max_roll3,0.00200668587632985
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,month_sin,0.016313117787143328
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,month_cos,0.027305920074141333
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,antecedent_moisture_anomaly,0.03068589998026039
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,recent_variability_ratio,0.11972768641493677
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,stemcount2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,basal_area2024,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,US5,shannon2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,start_signal,0.017959326299034517
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,start_daily_range,0.012006450156547199
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,mean_roll7,-0.001406316757543724
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,max_roll3,0.01713364099801614
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,month_sin,-0.01501229292326962
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,month_cos,0.012471119640675021
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,antecedent_moisture_anomaly,0.06940863962627394
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,recent_variability_ratio,0.31760463969809916
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,stemcount2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,basal_area2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,CN2,shannon2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,start_signal,0.021344997120883134
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,start_daily_range,0.1566436310989729
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,mean_roll7,0.008270429308691752
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,max_roll3,0.021074562116511996
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,month_sin,0.014481671211913016
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,month_cos,-0.022021921053563064
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,antecedent_moisture_anomaly,0.0037977870692983418
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,recent_variability_ratio,0.12251857010961029
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,stemcount2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,basal_area2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MD,shannon2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,start_signal,0.03175436814430458
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,start_daily_range,-0.04292337015301782
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,mean_roll7,0.018638840431296322
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,max_roll3,0.027166379794865213
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,month_sin,0.005447253450722156
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,month_cos,-0.012274328247294219
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,antecedent_moisture_anomaly,-0.021490373362319137
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,recent_variability_ratio,0.03391352216862352
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,stemcount2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,basal_area2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4MR,shannon2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,start_signal,0.025322516607499644
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,start_daily_range,0.22695477707421574
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,mean_roll7,-0.01798680335084022
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,max_roll3,-0.044628522112590274
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,month_sin,-0.03216309065410128
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,month_cos,-0.09152524050874147
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,antecedent_moisture_anomaly,0.017481858110117775
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,recent_variability_ratio,0.36002451282096437
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,stemcount2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,basal_area2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,FT4TH,shannon2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,start_signal,0.018413507661064622
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,start_daily_range,0.019095828144959005
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,mean_roll7,-0.017390376567921063
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,max_roll3,0.044217285701399024
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,month_sin,0.025254510552850506
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,month_cos,0.031566395409099404
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,antecedent_moisture_anomaly,-0.056264982564138956
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,recent_variability_ratio,-0.03630110348081309
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,stemcount2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,basal_area2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,LP3,shannon2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,start_signal,-0.024101431150474605
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,start_daily_range,0.03635738646703608
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,mean_roll7,-0.00643289682846897
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,max_roll3,0.026466878793512682
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,month_sin,0.03877027649504261
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,month_cos,0.024333656823213822
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,antecedent_moisture_anomaly,0.033861154371128244
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,recent_variability_ratio,0.004994064705704871
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,stemcount2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,basal_area2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,UP2,shannon2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,start_signal,0.0002131331238395706
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,start_daily_range,0.10200068794921242
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,mean_roll7,-0.0009497635506599212
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,max_roll3,-0.016804768089327828
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,month_sin,0.041582856164509886
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,month_cos,0.033400630437957636
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,antecedent_moisture_anomaly,0.005927025170682343
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,recent_variability_ratio,0.1965965196579081
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,avg_absgrowthCCNR,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,stemcount2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,basal_area2024,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,corrected_mortality,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,corrected_recruitment,0.0
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,US5,shannon2024,0.0

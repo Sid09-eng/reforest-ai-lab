@@ -1,0 +1,31 @@
+target,model_name,mae,rmse,r2,heldout_sites,evaluation
+temperature,Persistence,0.724172714941426,0.9403896450739279,0.21738439135877843,7,Macro-average leave-one-site-out
+temperature,Ridge,0.6821530105558267,0.8492895255638194,0.36042402617644254,7,Macro-average leave-one-site-out
+temperature,Elastic net,0.675801984864678,0.8429627327507692,0.370229452415557,7,Macro-average leave-one-site-out
+temperature,Histogram gradient boosting,0.6486480656620689,0.8095423539375979,0.41790190620766204,7,Macro-average leave-one-site-out
+temperature,Random forest,0.6204752980560209,0.7792537420132069,0.46217830771263724,7,Macro-average leave-one-site-out
+temperature,Extra trees,0.645636560829705,0.8054733594177458,0.4183034019994066,7,Macro-average leave-one-site-out
+relative_humidity,Persistence,2.9547833553783023,3.8661378418293952,0.31677330293878475,7,Macro-average leave-one-site-out
+relative_humidity,Ridge,2.8531681323276983,3.5453735524486794,0.4216013488941837,7,Macro-average leave-one-site-out
+relative_humidity,Elastic net,2.827356603341205,3.5038827619716097,0.43819157884214516,7,Macro-average leave-one-site-out
+relative_humidity,Histogram gradient boosting,2.7415318372845774,3.3850502644657143,0.4787831913793404,7,Macro-average leave-one-site-out
+relative_humidity,Random forest,2.6927742327786732,3.345501926583009,0.49137412017860366,7,Macro-average leave-one-site-out
+relative_humidity,Extra trees,2.745581824867482,3.401418600746845,0.4730975567606609,7,Macro-average leave-one-site-out
+vpd,Persistence,139.56911653370497,182.41720777102975,0.2230626806930647,7,Macro-average leave-one-site-out
+vpd,Ridge,134.39131724913562,166.1914073602736,0.34997244252193493,7,Macro-average leave-one-site-out
+vpd,Elastic net,134.43484200588227,165.87097177252843,0.35491631220198133,7,Macro-average leave-one-site-out
+vpd,Histogram gradient boosting,132.2494817067413,163.43916248953124,0.3810564071692655,7,Macro-average leave-one-site-out
+vpd,Random forest,130.07337873536116,162.01213449174415,0.39256808407398897,7,Macro-average leave-one-site-out
+vpd,Extra trees,134.5450132309628,166.52025780463234,0.35513535293469956,7,Macro-average leave-one-site-out
+par,Persistence,10.579949887324343,19.834462366469086,-0.15166207978912905,7,Macro-average leave-one-site-out
+par,Ridge,11.913277814714052,19.923665757299805,-0.33643123054552176,7,Macro-average leave-one-site-out
+par,Elastic net,11.600775325499116,19.6895358988104,-0.28659465019472313,7,Macro-average leave-one-site-out
+par,Histogram gradient boosting,13.666959479316116,22.741074773121145,-0.5019658535257304,7,Macro-average leave-one-site-out
+par,Random forest,15.102169359946767,24.973591169830367,-0.7108298884977314,7,Macro-average leave-one-site-out
+par,Extra trees,15.222640093998702,24.09213062305724,-2.5979927197372885,7,Macro-average leave-one-site-out
+soil_moisture,Persistence,0.015233468399105754,0.02039828266257626,0.74970711296913,7,Macro-average leave-one-site-out
+soil_moisture,Ridge,0.015504972057359694,0.020149861204351967,0.7590194391126804,7,Macro-average leave-one-site-out
+soil_moisture,Elastic net,0.01601184553489065,0.020640619033369896,0.7488449810232604,7,Macro-average leave-one-site-out
+soil_moisture,Histogram gradient boosting,0.01703543548751535,0.022025511842613556,0.7254184639007163,7,Macro-average leave-one-site-out
+soil_moisture,Random forest,0.01661504806456846,0.021342275686398158,0.7363887296448247,7,Macro-average leave-one-site-out
+soil_moisture,Extra trees,0.01687958214487838,0.021747018647946592,0.7290899199863622,7,Macro-average leave-one-site-out

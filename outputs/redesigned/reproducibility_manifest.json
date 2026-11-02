@@ -1,0 +1,585 @@
+{
+  "data": {
+    "source_file": "ccnr_microclimate_data.Rdata",
+    "sha256": "673a82f38dd4ed5b2d0ce21c27eafd21ea68ef0655465a2c83092fc1eb3cbebb",
+    "raw_rows": 1002949,
+    "hard_clean_rows": 1002899,
+    "analysis_screened_rows": 920216,
+    "columns": [
+      "time",
+      "unit",
+      "value",
+      "sn",
+      "plot",
+      "proximal",
+      "param",
+      "sensor",
+      "ft",
+      "stage"
+    ]
+  },
+  "cleaning": {
+    "hard_removal_rules": [
+      "Remove rows with a missing required timestamp, value, sensor identifier, plot, parameter, sensor, forest type or stage.",
+      "Remove soil-moisture readings above 0.6 m3/m3."
+    ],
+    "removed_rows_by_rule": {
+      "Missing required value or timestamp": 40,
+      "Soil moisture above 0.6 m3/m3": 10
+    },
+    "quality_flag_policy": "Candidate anomalies remain in df_hard_clean for audit. The primary EDA and modelling tier excludes all flagged rows; sensitivity outputs compare both tiers.",
+    "quality_flag_counts": {
+      "Flatline for 24 or more samples": 11342,
+      "PAR upper-range review": 20,
+      "PAR upper-range review; Rapid within-2-hour change": 9,
+      "RH <= 1% review": 20,
+      "RH <= 1% review; Rapid within-2-hour change": 4,
+      "RH saturation (100%)": 29288,
+      "RH saturation (100%); Flatline for 24 or more samples": 5878,
+      "RH saturation (100%); Rapid within-2-hour change": 5,
+      "Rapid within-2-hour change": 905,
+      "Rapid within-2-hour change; Flatline for 24 or more samples": 1,
+      "VPD > 6000 Pa review": 38,
+      "VPD > 6000 Pa review; Rapid within-2-hour change": 7,
+      "VPD zero (paired with RH saturation)": 29287,
+      "VPD zero (paired with RH saturation); Flatline for 24 or more samples": 5878,
+      "VPD zero (paired with RH saturation); Rapid within-2-hour change": 1
+    }
+  },
+  "reproducibility": {
+    "random_seed": 42,
+    "python": "3.10.5",
+    "pandas": "2.3.3",
+    "scikit_learn": "1.3.2"
+  },
+  "labels": [
+    {
+      "label": "vpd_state",
+      "rule": "<0.2, 0.2\u2013<0.5, 0.5\u2013<0.8, >=0.8 kPa",
+      "meaning": "increasing atmospheric moisture demand; not tree stress"
+    },
+    {
+      "label": "thermal_regime",
+      "rule": "<25, 25\u2013<27, 27\u2013<29, >=29 \u00b0C",
+      "meaning": "cool, typical, warm, hot daily conditions"
+    },
+    {
+      "label": "light_regime",
+      "rule": "<5, 5\u2013<25, 25\u2013<100, >=100 \u00b5mol m-2 s-1",
+      "meaning": "deep shade through high irradiance"
+    },
+    {
+      "label": "soil_water_state",
+      "rule": "within-plot <=20th, middle, >=80th percentile",
+      "meaning": "relative dry/mid/wet state; not an absolute moisture threshold"
+    }
+  ],
+  "vpd_state_evaluation": {
+    "target": "next-calendar-day VPD state",
+    "features": [
+      "temperature_lag1",
+      "temperature_roll3",
+      "temperature_roll7",
+      "relative_humidity_lag1",
+      "relative_humidity_roll3",
+      "relative_humidity_roll7",
+      "vpd_lag1",
+      "vpd_roll3",
+      "vpd_roll7",
+      "par_lag1",
+      "par_roll3",
+      "par_roll7",
+      "soil_moisture_lag1",
+      "soil_moisture_roll3",
+      "soil_moisture_roll7",
+      "day_of_year_sin",
+      "day_of_year_cos"
+    ],
+    "candidate_models": [
+      "persistence",
+      "logistic_regression",
+      "hist_gradient_boosting"
+    ],
+    "selection_metric": "validation macro-F1",
+    "split_audit": [
+      {
+        "split": "train",
+        "rows": 3031,
+        "unique_dates": 445,
+        "start_date": "2024-08-14",
+        "end_date": "2025-11-01",
+        "plots": 7
+      },
+      {
+        "split": "validation",
+        "rows": 1035,
+        "unique_dates": 148,
+        "start_date": "2025-11-02",
+        "end_date": "2026-03-29",
+        "plots": 7
+      },
+      {
+        "split": "final_test",
+        "rows": 778,
+        "unique_dates": 147,
+        "start_date": "2026-03-30",
+        "end_date": "2026-08-23",
+        "plots": 7
+      }
+    ],
+    "final_test_metrics": [
+      {
+        "model": "logistic_regression",
+        "evaluation": "untouched chronological final 20%",
+        "rows": 778,
+        "accuracy": 0.5012853470437018,
+        "balanced_accuracy": 0.5939211013814857,
+        "macro_f1": 0.5048359575835475,
+        "macro_ovr_auc": 0.8159170345518396,
+        "macro_ovr_auc_note": "Reported: selected model provides probabilities and every class occurs in the final test."
+      }
+    ],
+    "final_test_per_class_metrics": [
+      {
+        "class": "high_demand",
+        "precision": 0.3346938775510204,
+        "recall": 0.5694444444444444,
+        "f1": 0.42159383033419023,
+        "support": 144
+      },
+      {
+        "class": "low_demand",
+        "precision": 0.5185185185185185,
+        "recall": 0.7044025157232704,
+        "f1": 0.5973333333333333,
+        "support": 159
+      },
+      {
+        "class": "moderate_demand",
+        "precision": 0.7696335078534031,
+        "recall": 0.3594132029339853,
+        "f1": 0.48999999999999994,
+        "support": 409
+      },
+      {
+        "class": "very_high_demand",
+        "precision": 0.3888888888888889,
+        "recall": 0.7424242424242424,
+        "f1": 0.5104166666666666,
+        "support": 66
+      }
+    ]
+  },
+  "regression_evaluation": {
+    "targets": [
+      "temperature",
+      "relative_humidity",
+      "vpd",
+      "par",
+      "soil_moisture"
+    ],
+    "features": [
+      "ft",
+      "par",
+      "relative_humidity",
+      "soil_moisture",
+      "temperature",
+      "vpd",
+      "temperature_lag_1",
+      "temperature_roll3",
+      "temperature_roll7",
+      "relative_humidity_lag_1",
+      "relative_humidity_roll3",
+      "relative_humidity_roll7",
+      "vpd_lag_1",
+      "vpd_roll3",
+      "vpd_roll7",
+      "par_lag_1",
+      "par_roll3",
+      "par_roll7",
+      "soil_moisture_lag_1",
+      "soil_moisture_roll3",
+      "soil_moisture_roll7",
+      "day_of_year_sin",
+      "day_of_year_cos"
+    ],
+    "candidate_models": [
+      "Persistence",
+      "Ridge",
+      "Elastic net",
+      "Histogram gradient boosting",
+      "Random forest",
+      "Extra trees"
+    ],
+    "site_transfer_metric_set": [
+      "MAE",
+      "RMSE",
+      "R2"
+    ],
+    "temporal_selection_metric": "validation MAE",
+    "temporal_split_audit": [
+      {
+        "target": "temperature",
+        "split": "train",
+        "rows": 3026,
+        "start_date": "2024-08-14",
+        "end_date": "2025-11-01",
+        "plots": 7
+      },
+      {
+        "target": "temperature",
+        "split": "validation",
+        "rows": 1025,
+        "start_date": "2025-11-02",
+        "end_date": "2026-03-29",
+        "plots": 7
+      },
+      {
+        "target": "temperature",
+        "split": "final_test",
+        "rows": 776,
+        "start_date": "2026-03-30",
+        "end_date": "2026-08-23",
+        "plots": 7
+      },
+      {
+        "target": "relative_humidity",
+        "split": "train",
+        "rows": 3026,
+        "start_date": "2024-08-14",
+        "end_date": "2025-11-01",
+        "plots": 7
+      },
+      {
+        "target": "relative_humidity",
+        "split": "validation",
+        "rows": 1025,
+        "start_date": "2025-11-02",
+        "end_date": "2026-03-29",
+        "plots": 7
+      },
+      {
+        "target": "relative_humidity",
+        "split": "final_test",
+        "rows": 776,
+        "start_date": "2026-03-30",
+        "end_date": "2026-08-23",
+        "plots": 7
+      },
+      {
+        "target": "vpd",
+        "split": "train",
+        "rows": 3026,
+        "start_date": "2024-08-14",
+        "end_date": "2025-11-01",
+        "plots": 7
+      },
+      {
+        "target": "vpd",
+        "split": "validation",
+        "rows": 1025,
+        "start_date": "2025-11-02",
+        "end_date": "2026-03-29",
+        "plots": 7
+      },
+      {
+        "target": "vpd",
+        "split": "final_test",
+        "rows": 776,
+        "start_date": "2026-03-30",
+        "end_date": "2026-08-23",
+        "plots": 7
+      },
+      {
+        "target": "par",
+        "split": "train",
+        "rows": 2186,
+        "start_date": "2024-08-14",
+        "end_date": "2025-10-20",
+        "plots": 7
+      },
+      {
+        "target": "par",
+        "split": "validation",
+        "rows": 480,
+        "start_date": "2025-10-21",
+        "end_date": "2026-03-13",
+        "plots": 7
+      },
+      {
+        "target": "par",
+        "split": "final_test",
+        "rows": 160,
+        "start_date": "2026-03-14",
+        "end_date": "2026-08-04",
+        "plots": 4
+      },
+      {
+        "target": "soil_moisture",
+        "split": "train",
+        "rows": 2009,
+        "start_date": "2024-08-15",
+        "end_date": "2025-10-16",
+        "plots": 7
+      },
+      {
+        "target": "soil_moisture",
+        "split": "validation",
+        "rows": 396,
+        "start_date": "2025-10-17",
+        "end_date": "2026-03-07",
+        "plots": 6
+      },
+      {
+        "target": "soil_moisture",
+        "split": "final_test",
+        "rows": 152,
+        "start_date": "2026-03-08",
+        "end_date": "2026-08-03",
+        "plots": 3
+      }
+    ],
+    "temporal_final_test_metrics": [
+      {
+        "target": "temperature",
+        "selected_model": "Persistence",
+        "evaluation": "untouched chronological final 20%",
+        "persistence_mae": 0.7550474625144407,
+        "persistence_rmse": 0.9658472851208909,
+        "persistence_r2": 0.1915650421419981,
+        "mae": 0.7550474625144407,
+        "rmse": 0.9658472851208909,
+        "r2": 0.1915650421419981,
+        "persistence_minus_model_mae": 0.0,
+        "mae_improvement_vs_persistence_pct": 0.0,
+        "final_test_rows": 776
+      },
+      {
+        "target": "relative_humidity",
+        "selected_model": "Persistence",
+        "evaluation": "untouched chronological final 20%",
+        "persistence_mae": 2.6065247311811226,
+        "persistence_rmse": 3.5645557101092824,
+        "persistence_r2": 0.48457851340160407,
+        "mae": 2.6065247311811226,
+        "rmse": 3.5645557101092824,
+        "r2": 0.48457851340160407,
+        "persistence_minus_model_mae": 0.0,
+        "mae_improvement_vs_persistence_pct": 0.0,
+        "final_test_rows": 776
+      },
+      {
+        "target": "vpd",
+        "selected_model": "Persistence",
+        "evaluation": "untouched chronological final 20%",
+        "persistence_mae": 137.4999970102077,
+        "persistence_rmse": 198.22802357923098,
+        "persistence_r2": 0.410629864745635,
+        "mae": 137.4999970102077,
+        "rmse": 198.22802357923098,
+        "r2": 0.410629864745635,
+        "persistence_minus_model_mae": 0.0,
+        "mae_improvement_vs_persistence_pct": 0.0,
+        "final_test_rows": 776
+      },
+      {
+        "target": "par",
+        "selected_model": "Random forest",
+        "evaluation": "untouched chronological final 20%",
+        "persistence_mae": 4.529204676163728,
+        "persistence_rmse": 10.074641521775398,
+        "persistence_r2": 0.5071916546734241,
+        "mae": 6.978862788828058,
+        "rmse": 12.996005990677894,
+        "r2": 0.1799531673158019,
+        "persistence_minus_model_mae": -2.4496581126643306,
+        "mae_improvement_vs_persistence_pct": -54.08583377908217,
+        "final_test_rows": 160
+      },
+      {
+        "target": "soil_moisture",
+        "selected_model": "Persistence",
+        "evaluation": "untouched chronological final 20%",
+        "persistence_mae": 0.012099698464912281,
+        "persistence_rmse": 0.017401198251539005,
+        "persistence_r2": 0.9247471505956978,
+        "mae": 0.012099698464912281,
+        "rmse": 0.017401198251539005,
+        "r2": 0.9247471505956978,
+        "persistence_minus_model_mae": 0.0,
+        "mae_improvement_vs_persistence_pct": 0.0,
+        "final_test_rows": 152
+      }
+    ]
+  },
+  "screening_robustness": {
+    "vpd_label_agreement": [
+      {
+        "paired_plot_days": 4846,
+        "matching_labels": 4048,
+        "changed_labels": 798,
+        "agreement_rate": 0.8353281056541477
+      }
+    ],
+    "classifier_metrics": [
+      {
+        "model_name": "logistic_regression",
+        "rows": 778,
+        "accuracy": 0.5012853470437018,
+        "balanced_accuracy": 0.5939211013814857,
+        "macro_f1": 0.5048359575835475,
+        "selected_model": "logistic_regression",
+        "data_tier": "hard_cleaned"
+      },
+      {
+        "model_name": "persistence",
+        "rows": 778,
+        "accuracy": 0.5976863753213367,
+        "balanced_accuracy": 0.5827471858500575,
+        "macro_f1": 0.5836776524076853,
+        "selected_model": "persistence",
+        "data_tier": "analysis_screened"
+      }
+    ],
+    "temporal_regression_metrics": [
+      {
+        "target": "temperature",
+        "selected_model": "Persistence",
+        "persistence_mae": 0.7550474625144407,
+        "mae": 0.7550474625144407,
+        "rmse": 0.9658472851208909,
+        "r2": 0.1915650421419981,
+        "mae_improvement_vs_persistence_pct": 0.0,
+        "final_test_rows": 776,
+        "data_tier": "hard_cleaned"
+      },
+      {
+        "target": "relative_humidity",
+        "selected_model": "Persistence",
+        "persistence_mae": 2.6065247311811226,
+        "mae": 2.6065247311811226,
+        "rmse": 3.5645557101092824,
+        "r2": 0.48457851340160407,
+        "mae_improvement_vs_persistence_pct": 0.0,
+        "final_test_rows": 776,
+        "data_tier": "hard_cleaned"
+      },
+      {
+        "target": "vpd",
+        "selected_model": "Persistence",
+        "persistence_mae": 137.4999970102077,
+        "mae": 137.4999970102077,
+        "rmse": 198.22802357923098,
+        "r2": 0.410629864745635,
+        "mae_improvement_vs_persistence_pct": 0.0,
+        "final_test_rows": 776,
+        "data_tier": "hard_cleaned"
+      },
+      {
+        "target": "par",
+        "selected_model": "Random forest",
+        "persistence_mae": 4.529204676163728,
+        "mae": 6.978862788828058,
+        "rmse": 12.996005990677894,
+        "r2": 0.1799531673158019,
+        "mae_improvement_vs_persistence_pct": -54.08583377908217,
+        "final_test_rows": 160,
+        "data_tier": "hard_cleaned"
+      },
+      {
+        "target": "soil_moisture",
+        "selected_model": "Persistence",
+        "persistence_mae": 0.012099698464912281,
+        "mae": 0.012099698464912281,
+        "rmse": 0.017401198251539005,
+        "r2": 0.9247471505956978,
+        "mae_improvement_vs_persistence_pct": 0.0,
+        "final_test_rows": 152,
+        "data_tier": "hard_cleaned"
+      },
+      {
+        "target": "temperature",
+        "selected_model": "Persistence",
+        "persistence_mae": 0.7531773340411266,
+        "mae": 0.7531773340411266,
+        "rmse": 0.9648905474771429,
+        "r2": 0.1882597423791672,
+        "mae_improvement_vs_persistence_pct": 0.0,
+        "final_test_rows": 776,
+        "data_tier": "analysis_screened"
+      },
+      {
+        "target": "relative_humidity",
+        "selected_model": "Persistence",
+        "persistence_mae": 3.2195678481624053,
+        "mae": 3.2195678481624053,
+        "rmse": 4.294753592272909,
+        "r2": 0.6274363465212509,
+        "mae_improvement_vs_persistence_pct": 0.0,
+        "final_test_rows": 779,
+        "data_tier": "analysis_screened"
+      },
+      {
+        "target": "vpd",
+        "selected_model": "Persistence",
+        "persistence_mae": 156.65220394583676,
+        "mae": 156.65220394583676,
+        "rmse": 224.446701799767,
+        "r2": 0.5244421374649282,
+        "mae_improvement_vs_persistence_pct": 0.0,
+        "final_test_rows": 782,
+        "data_tier": "analysis_screened"
+      },
+      {
+        "target": "par",
+        "selected_model": "Elastic net",
+        "persistence_mae": 5.355490201420004,
+        "mae": 5.604150011171147,
+        "rmse": 10.817295633134119,
+        "r2": 0.7846014730782813,
+        "mae_improvement_vs_persistence_pct": -4.6430821530625055,
+        "final_test_rows": 161,
+        "data_tier": "analysis_screened"
+      },
+      {
+        "target": "soil_moisture",
+        "selected_model": "Persistence",
+        "persistence_mae": 0.01216165975400458,
+        "mae": 0.01216165975400458,
+        "rmse": 0.017501134113552513,
+        "r2": 0.9237140412838711,
+        "mae_improvement_vs_persistence_pct": 0.0,
+        "final_test_rows": 152,
+        "data_tier": "analysis_screened"
+      }
+    ]
+  },
+  "outputs": {
+    "manifest_json": "outputs/redesigned/reproducibility_manifest.json",
+    "manifest_markdown": "outputs/redesigned/reproducibility_manifest.md",
+    "data_tier_summary": "outputs/redesigned/quality/data_tier_summary.csv",
+    "screening_sensitivity": "outputs/redesigned/quality/screening_sensitivity_daily_means.csv",
+    "screening_sensitivity_figure": "outputs/redesigned/quality/screening_sensitivity_daily_means.png",
+    "block_correlation_summary": "outputs/redesigned/readiness/daily_block_spearman_correlations.csv",
+    "forecast_target_coverage": "outputs/redesigned/forecasting/daily_forecast_target_coverage.csv",
+    "vpd_split_audit": "outputs/redesigned/readiness/vpd_state_split_audit.csv",
+    "vpd_split_class_counts": "outputs/redesigned/readiness/vpd_state_split_class_counts.csv",
+    "vpd_split_plot_counts": "outputs/redesigned/readiness/vpd_state_split_plot_counts.csv",
+    "vpd_final_summary": "outputs/redesigned/readiness/vpd_state_final_test_summary.csv",
+    "vpd_per_class_metrics": "outputs/redesigned/readiness/vpd_state_final_test_per_class_metrics.csv",
+    "vpd_confusion_matrix": "outputs/redesigned/readiness/vpd_state_final_test_confusion_matrix.csv",
+    "vpd_confusion_figure": "outputs/redesigned/readiness/vpd_state_final_test_confusion_matrix.png",
+    "regression_site_transfer": "outputs/redesigned/forecasting/daily_model_comparison.csv",
+    "regression_site_transfer_figure": "outputs/redesigned/forecasting/daily_model_comparison.png",
+    "regression_temporal_validation": "outputs/redesigned/forecasting/daily_temporal_validation_comparison.csv",
+    "regression_temporal_split_audit": "outputs/redesigned/forecasting/daily_temporal_split_audit.csv",
+    "regression_temporal_final_test": "outputs/redesigned/forecasting/daily_temporal_final_test_metrics.csv",
+    "regression_heldout_site_metrics": "outputs/redesigned/forecasting/daily_heldout_site_metrics.csv",
+    "regression_site_variation": "outputs/redesigned/forecasting/daily_model_site_variation.csv",
+    "screening_label_agreement": "outputs/redesigned/screening_robustness/tier_vpd_label_agreement.csv",
+    "screening_correlation_comparison": "outputs/redesigned/screening_robustness/tier_correlation_comparison.csv",
+    "screening_classifier_comparison": "outputs/redesigned/screening_robustness/tier_vpd_classifier_metrics.csv",
+    "screening_regression_comparison": "outputs/redesigned/screening_robustness/tier_temporal_regression_metrics.csv",
+    "screening_robustness_figure": "outputs/redesigned/screening_robustness/screening_robustness_summary.png"
+  }
+}

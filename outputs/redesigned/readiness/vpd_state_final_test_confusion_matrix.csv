@@ -1,0 +1,5 @@
+observed,high_demand,low_demand,moderate_demand,very_high_demand
+high_demand,82,8,12,42
+low_demand,7,112,32,8
+moderate_demand,144,91,147,27
+very_high_demand,12,5,0,49

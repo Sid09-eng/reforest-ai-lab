@@ -1,0 +1,4 @@
+data_tier,rows,purpose
+Raw,1002949,Source audit only
+Hard-cleaned,1002899,Primary EDA and modelling dataset; flags retained for audit
+Analysis-screened,920216,Sensitivity check only

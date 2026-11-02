@@ -1,0 +1,12 @@
+hard_clean_state,screened_state,plot_days
+high_demand,high_demand,749
+high_demand,moderate_demand,5
+high_demand,very_high_demand,133
+low_demand,high_demand,7
+low_demand,low_demand,1071
+low_demand,moderate_demand,316
+moderate_demand,high_demand,318
+moderate_demand,moderate_demand,1946
+moderate_demand,very_high_demand,11
+very_high_demand,high_demand,8
+very_high_demand,very_high_demand,282

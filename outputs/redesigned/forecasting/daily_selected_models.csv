@@ -1,0 +1,6 @@
+target,model_name,mae,rmse,r2,heldout_sites,evaluation
+temperature,Random forest,0.6204752980560209,0.7792537420132069,0.46217830771263724,7,Macro-average leave-one-site-out
+relative_humidity,Random forest,2.6927742327786732,3.345501926583009,0.49137412017860366,7,Macro-average leave-one-site-out
+vpd,Random forest,130.07337873536116,162.01213449174415,0.39256808407398897,7,Macro-average leave-one-site-out
+par,Persistence,10.579949887324343,19.834462366469086,-0.15166207978912905,7,Macro-average leave-one-site-out
+soil_moisture,Persistence,0.015233468399105754,0.02039828266257626,0.74970711296913,7,Macro-average leave-one-site-out

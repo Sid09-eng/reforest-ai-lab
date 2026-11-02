@@ -1,0 +1,16 @@
+target,split,rows,start_date,end_date,plots
+temperature,train,3026,2024-08-14,2025-11-01,7
+temperature,validation,1025,2025-11-02,2026-03-29,7
+temperature,final_test,776,2026-03-30,2026-08-23,7
+relative_humidity,train,3026,2024-08-14,2025-11-01,7
+relative_humidity,validation,1025,2025-11-02,2026-03-29,7
+relative_humidity,final_test,776,2026-03-30,2026-08-23,7
+vpd,train,3026,2024-08-14,2025-11-01,7
+vpd,validation,1025,2025-11-02,2026-03-29,7
+vpd,final_test,776,2026-03-30,2026-08-23,7
+par,train,2186,2024-08-14,2025-10-20,7
+par,validation,480,2025-10-21,2026-03-13,7
+par,final_test,160,2026-03-14,2026-08-04,4
+soil_moisture,train,2009,2024-08-15,2025-10-16,7
+soil_moisture,validation,396,2025-10-17,2026-03-07,6
+soil_moisture,final_test,152,2026-03-08,2026-08-03,3

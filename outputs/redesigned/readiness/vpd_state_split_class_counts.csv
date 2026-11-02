@@ -1,0 +1,13 @@
+split,vpd_state,rows
+train,high_demand,492
+train,low_demand,1079
+train,moderate_demand,1317
+train,very_high_demand,143
+validation,high_demand,250
+validation,low_demand,160
+validation,moderate_demand,548
+validation,very_high_demand,77
+final_test,high_demand,144
+final_test,low_demand,159
+final_test,moderate_demand,409
+final_test,very_high_demand,66

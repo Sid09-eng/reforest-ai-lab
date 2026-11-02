@@ -1,0 +1,5 @@
+label,rule,meaning
+vpd_state,"<0.2, 0.2–<0.5, 0.5–<0.8, >=0.8 kPa",increasing atmospheric moisture demand; not tree stress
+thermal_regime,"<25, 25–<27, 27–<29, >=29 °C","cool, typical, warm, hot daily conditions"
+light_regime,"<5, 5–<25, 25–<100, >=100 µmol m-2 s-1",deep shade through high irradiance
+soil_water_state,"within-plot <=20th, middle, >=80th percentile",relative dry/mid/wet state; not an absolute moisture threshold

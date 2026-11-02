@@ -1,0 +1,4 @@
+split,rows,unique_dates,start_date,end_date,plots
+train,3031,445,2024-08-14,2025-11-01,7
+validation,1035,148,2025-11-02,2026-03-29,7
+final_test,778,147,2026-03-30,2026-08-23,7

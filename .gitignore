@@ -10,3 +10,30 @@ __pycache__/
 venv/
 env/
 .env
+
+# Local source data and regenerated analysis products
+# Existing tracked historical datasets remain untouched; do not add new copies.
+ccnr_microclimate_data.Rdata
+data/raw/
+data/processed/
+backups/
+
+# Large or reproducible generated artifacts. Curated public results are force-added
+# selectively, rather than committing every intermediate file or fitted model.
+output/
+outputs/redesigned.__pre_promote_*/
+outputs/redesigned/forecasting/models/
+outputs/redesigned/forecasting/daily_heldout_predictions.csv
+outputs/redesigned/forecasting/daily_heldout_permutation_importance.csv
+outputs/redesigned/forecasting/daily_heldout_site_metrics.csv
+outputs/redesigned/readiness/daily_microclimate_labels.csv
+outputs/redesigned/readiness/vpd_state_heldout_predictions.csv
+
+# Draft submission files with editable cover-page placeholders
+docs/Forest_Restoration_Using_AI_Final_Report_Draft.docx
+docs/Draft report_FYP.pdf
+docs/FYP_Report_Template.doc
+docs/plans/
+docs/assets/report_tables/
+docs/assets/usgs_bottomland_hardwood_habitat_restoration.jpg
+docs/assets/workflow.png

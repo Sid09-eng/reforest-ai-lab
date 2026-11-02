@@ -1,5 +1,13 @@
-target,target_label,model_name,mae,rmse,r2,mae_change_vs_baseline_pct,rmse_change_vs_baseline_pct
-abs_drying_rate,Drying rate,Event-onset only,0.006038542946047801,0.008369423403077517,0.5105456858788031,0.0,0.0
-abs_drying_rate,Drying rate,Event-onset + plot summary,0.006272851796175127,0.008767218135327567,0.46291291753988373,-3.880221639902059,-4.752952659842464
-empirical_half_life_days,Half-life,Event-onset only,1.1588355031842579,1.6461250179491935,0.08280300379967043,0.0,0.0
-empirical_half_life_days,Half-life,Event-onset + plot summary,1.5035896024985431,1.9598681860282168,-0.3001417942688063,-29.750046349716335,-19.05949819472987
+target,target_label,model_name,preprocessing,feature_set,mae,rmse,r2,mae_change_vs_baseline_pct,rmse_change_vs_baseline_pct
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset,0.005985625622556462,0.008306081426671403,0.5092749845095104,0.0,0.0
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset,0.006184075014145057,0.00853824967700468,0.4814584881779703,-3.3154327400756785,-2.7951598161290345
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset,0.006387738903109154,0.008946992219975004,0.43062296280779344,-6.717982478512404,-7.716163138560049
+abs_drying_rate,Drying rate,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,0.006592424339121426,0.00904442973387207,0.418153793769505,-10.137598888214464,-8.889249566345207
+abs_drying_rate,Drying rate,Random forest,Median imputation,Engineered event-onset + plot traits,0.006190970116804304,0.008583339984668483,0.4759672142092851,-3.4306270922460285,-3.338018781116007
+abs_drying_rate,Drying rate,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,0.006466825810485316,0.009062001071896131,0.41589079920107686,-8.039263032346708,-9.100797432558489
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset,1.1950655156196355,1.7916229861294717,0.08179107963475052,0.0,0.0
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset,1.0604048520903693,1.5302523359510727,0.3301549406599851,11.268057003506232,14.588484977135199
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset,1.0976717845977746,1.6858464876135748,0.18701167846348032,8.14965621122142,5.903948505617851
+empirical_half_life_days,Half-life,Ridge,Median imputation + standardization,Engineered event-onset + plot traits,1.443467197045412,1.9664107262552162,-0.10610594160259068,-20.785612017009925,-9.755832643303307
+empirical_half_life_days,Half-life,Random forest,Median imputation,Engineered event-onset + plot traits,1.0741216849528616,1.5411408714213242,0.32058843911786894,10.120267808419278,13.980737948069976
+empirical_half_life_days,Half-life,Histogram gradient boosting,Median imputation,Engineered event-onset + plot traits,1.091242620704941,1.6822012818541123,0.19052363026128405,8.687632063490911,6.107406810611883
